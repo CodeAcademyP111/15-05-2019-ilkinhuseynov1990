@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sidebar .mysidebar{
+    width: 0;
+    height: 945px;
+    border: 1px solid silver;
+    position: relative;
+    visibility: hidden;
+    background-color: #ccc;
+    float: left;
+    top:0;
+    left: 0;
+    transition: 2s;
+    transition-timing-function: linear;
+    
+}
+
+#sidebar .mysidebar .icon{
+    width: 50px;
+    height: 50px;
+    border:thin solid #fd3939;
+    position:absolute;
+    right: 0;
+    top:0;
+}
+
+
+#main .mybutton button{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 150px;
+    border: none;
+    color: aliceblue;
+    background-color: #fd3939;
+    margin-left:1%;
+}
+
+
+#sidebar .mysidebar .icon{
+    text-align: center;
+    line-height: 1.5;
+    font-size:32px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #fd3939;
+}
